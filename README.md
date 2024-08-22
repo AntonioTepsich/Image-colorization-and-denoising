@@ -1,4 +1,4 @@
-# Image-colorization-and-denoising
+# Image Colorization and Denoising
 with Pix2Pix and DnCNN
 
 ### Authors

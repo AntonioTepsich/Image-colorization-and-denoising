@@ -33,25 +33,24 @@ cd Final_Project_ML
 pip install -r requirements.txt
 ```
 
-Ademas deben crear los archivos logs, runs, results en caso de ser la primera vez que corra.
+The files: logs, runs and results must be created the first time running the code.
 
 # Usage
-### 1-Descargar el Dataset de Kaggle
-Deberas ingresar tu usuario y apiKey de Kaggle luego de ejecutar el siguiente comando:
+### 1-Download the dataset from Kaggle
+Enter your Kaggle Account and apiKey after executing this command:
 ```bash
 python scripts/download_datasets.py
 ```
-Ejemplo:
+Example:
 ```bash
 Your Kaggle username: XXXX
 Your Kaggle Key: XXXXXXXXXXXXXXXXXX
 ```
-En caso de querer otro dataset, buscar en la carpeta scrips
+If other dataset is wanted, search in the scripts folder.
 
 
-
-### 2- Entrenar modelos
-Especificar las configuraciones de los modelos a entrenar y correr el siguiente comando:
+### 2- Train Models
+Specify the configurations of the models to run and execute this command:
 ```bash
 ./go.sh
 ```

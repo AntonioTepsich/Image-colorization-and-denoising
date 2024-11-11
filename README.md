@@ -1,5 +1,4 @@
-# Image Colorization and Denoising
-with Pix2Pix and DnCNN
+# Image Colorization and Denoising with Pix2Pix and DnCNN
 
 ### Authors
 This repository was made by:
@@ -36,7 +35,11 @@ pip install -r requirements.txt
 The files: logs, runs and results must be created the first time running the code.
 
 # Usage
-### 1-Download the dataset from Kaggle
+### 1-Jupyter Notebook
+Run the file: 
+```image_colorization.ipynb```
+
+### 2-Download the dataset from Kaggle
 Enter your Kaggle Account and apiKey after executing this command:
 ```bash
 python scripts/download_datasets.py
@@ -47,16 +50,3 @@ Your Kaggle username: XXXX
 Your Kaggle Key: XXXXXXXXXXXXXXXXXX
 ```
 If other dataset is wanted, search in the scripts folder.
-
-
-### 2- Train Models
-Specify the configurations of the models to run and execute this command:
-```bash
-./go.sh
-```
-
-### 3- TensorBoard
-
-```bash
-tensorboard --logdir runs
-```

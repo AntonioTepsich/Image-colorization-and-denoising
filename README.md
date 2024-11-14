@@ -10,7 +10,7 @@ This repository was made by:
  - Trinidad Monreal | tmonreal@udesa.edu.ar 
 
 ## Report in Spanish
-You can view the full [report here](docs/Tepsich_Gubitosi_Informe_TP.pdf)
+You can view the [full report here](docs/Tepsich_Gubitosi_Informe_TP.pdf)
 
 # Abstract
 We developed and applied deep learning models to colorize black-and-white images, specifically using a DnCNN for noise reduction and a cGAN generator for colorization. Our study demonstrates that it is possible not only to convincingly restore colors but also to improve the visual quality of historical images, surpassing the limitations of their time. Despite certain limitations related to generalization in varied backgrounds and the quality of our own dataset images, the models showed significant ability to produce high-quality images.
@@ -34,13 +34,16 @@ Run the file:
 ```image_colorization.ipynb```
 
 ### 2-Download the dataset from Kaggle
-Enter your Kaggle Account and apiKey after executing this command:
-```bash
-python scripts/download_datasets.py
+Choose which dataset to download in the second cell:
+
+```python
+download_art_dataset()
+download_celeba_dataset()
 ```
-Example:
+
+After executing, enter your Kaggle account credentials and API key:
 ```bash
 Your Kaggle username: XXXX
 Your Kaggle Key: XXXXXXXXXXXXXXXXXX
 ```
-If other dataset is wanted, search in the scripts folder.
+If you want to download a different dataset, search in the ```scripts``` folder.

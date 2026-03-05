@@ -10,7 +10,7 @@ This repository was made by:
  - Trinidad Monreal | tmonreal@udesa.edu.ar 
 
 ## Report in Spanish
-You can view the [full report here](docs/Tepsich_Gubitosi_Informe_TP.pdf)
+You can view the [full report here](docs/informe.pdf)
 
 # Abstract
 We developed and applied deep learning models to colorize black-and-white images, specifically using a DnCNN for noise reduction and a cGAN generator for colorization. Our study demonstrates that it is possible not only to convincingly restore colors but also to improve the visual quality of historical images, surpassing the limitations of their time. Despite certain limitations related to generalization in varied backgrounds and the quality of our own dataset images, the models showed significant ability to produce high-quality images.
